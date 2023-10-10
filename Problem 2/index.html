@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>DOM Manipulation </h1>
+    <div class="container">
+        <div id="content">
+            <div class="left-column">
+                <p id="textElement">"Change this text by clicking below"</p>
+                <button id="changeTextButton">Change Text</button>
+                <button id="changeImage">Change Image</button>
+                <button id="changeColorButton">Change color of div</button>
+                <form>
+                    <input type="text" id="inputField" placeholder="Enter something">
+                    <button id="submitButton">Submit</button>
+                </form>
+                <div id="parentNode">This is the parent node.</div>
+                <button id="addTextNodeButton">Add Text Node</button>
+                <button id="deleteNodeButton">Delete Node</button>
+            </div>
+            <div class="right-column">
+                <div class="changeColor">This div's color can be changed.</div>
+                <div id="dynamicImageContainer">
+                    <img id="dynamicImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
